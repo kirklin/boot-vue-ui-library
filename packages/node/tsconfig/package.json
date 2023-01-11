@@ -1,0 +1,21 @@
+{
+  "name": "@vue-ui-library/tsconfig",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "tsconfig for vue-ui-library.",
+  "license": "MIT",
+  "homepage": "https://github.com/kirklin/vue-ui-library/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirklin/vue-ui-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kirklin/vue-ui-library/issues"
+  },
+  "keywords": [
+    "vue-ui-library",
+    "component library",
+    "ui framework",
+    "tsconfig"
+  ]
+}
