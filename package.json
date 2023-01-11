@@ -9,6 +9,7 @@
     "node": ">= 16"
   },
   "scripts": {
+    "dev": "pnpm -C playground dev",
     "clean": "pnpm run -r --parallel clean",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

@@ -1,0 +1,36 @@
+{
+  "name": "@vue-ui-library/playgroundplayground",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Playground for vue-ui-library.",
+  "license": "MIT",
+  "homepage": "https://github.com/kirklin/vue-ui-library/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirklin/vue-ui-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kirklin/vue-ui-library/issues"
+  },
+  "keywords": [
+    "vue-ui-library",
+    "component library",
+    "ui framework",
+    "tsconfig"
+  ],
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "typescript": "^4.9.4",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.0.4"
+  }
+}
