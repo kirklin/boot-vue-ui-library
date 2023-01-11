@@ -1,5 +1,6 @@
-import { createApp } from "vue"
-;(async () => {
+import { createApp } from "vue";
+
+(async () => {
   const apps = import.meta.glob("./src/*.vue");
   const name = location.pathname.replace(/^\//, "") || "App";
   const file = apps[`./src/${name}.vue`];
@@ -7,6 +8,9 @@ import { createApp } from "vue"
     location.pathname = "App";
     return;
   }
+
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-expect-error
   const App = (await file()).default;
   const app = createApp(App);
 
